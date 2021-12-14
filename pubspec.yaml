@@ -23,7 +23,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  intl: ^0.17.0
+  macos_ui: ^0.10.0+1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -74,3 +75,18 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Brandon Text
+      fonts:
+        - asset: assets/fonts/BrandonText-Thin.otf
+          weight: 100
+        - asset: assets/fonts/BrandonText-Light.otf
+          weight: 300
+        - asset: assets/fonts/BrandonText-Regular.otf
+          weight: 400
+        - asset: assets/fonts/BrandonText-Medium.otf
+          weight: 500
+        - asset: assets/fonts/BrandonText-Bold.otf
+          weight: 700
+        - asset: assets/fonts/BrandonText-Black.otf
+          weight: 800
